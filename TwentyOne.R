@@ -24,6 +24,7 @@ SHUFFLE<-function()	#shuffling deck of 52 cards
 			
 			temp1<-PlayingCard[i,1]		#swapping values of i and j
 			temp2<-PlayingCard[i,2]
+			
 			PlayingCard[i,1]<<-PlayingCard[j,1]
 			PlayingCard[i,2]<<-PlayingCard[j,2]
 			PlayingCard[j,1]<<-temp1
