@@ -36,10 +36,10 @@ SHUFFLE<-function()	#shuffling deck of 52 cards
 	}
 #////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-DEAL<-function()		#returns the current card of the deck
+DEAL<-function()							#returns the current card of the deck
 {
 	current_card<-cbind(PlayingCard[index,1],PlayingCard[index,2])
-	index<<-index+1		#incrementing index 
+	index<<-index+1							#incrementing index 
 	return (current_card)
 }
 
